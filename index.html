@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Adopcje świnek morskich</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- czcionka zewnętrzna -->
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    </head>
+    <body>
+    <main>
+        <header id="header">
+            <div>
+            <h1>Nie kupuj, adoptuj!</h1>
+            <h2>Poznaj świnki morskie czekające na kochający dom!</h2>
+            </div>
+            <img src="Obrazy/gustaw_guineapig.png" alt="Zdjęcie świnki morskiej.">
+        </header>
+        <nav id="navigation"> <!-- belka z linkami na górze strony-->
+            <a href="index.html">Góra strony</a>
+            <a href="#prezentacja">Świnki do adopcji</a>
+            <a href="#formularz">Formularz adopcyjny</a>
+        </nav>
+        <!-- galeria świnek -->
+        <section id="prezentacja" class="prezentacja">
+        <div id="prezentacja_1">
+            <h3>świnka 1</h3>
+            <img src="Obrazy/swinka_do_adopcji.png" alt="Zdjęcie świnki morskiej.">
+            <p>Tutaj znajduje się opis świnki 1. Jeżeli świnka 1 skradła Twoje serce udaj się do formularza adopcyjnego.</p>
+        </div>
+            <div id="prezentacja_2">
+                <h3>świnka 2</h3>
+                <img src="Obrazy/swinka_do_adopcji.png" alt="Zdjęcie świnki morskiej.">
+                <p>Tutaj znajduje się opis świnki 2. Jeżeli świnka 2 skradła Twoje serce udaj się do formularza adopcyjnego.</p>
+            </div>
+            <div id="prezentacja_3">
+                <h3>świnka 3</h3>
+                <img src="Obrazy/swinka_do_adopcji.png" alt="Zdjęcie świnki morskiej.">
+                <p>Tutaj znajduje się opis świnki 3. Jeżeli świnka 3 skradła Twoje serce udaj się do formularza adopcyjnego.</p>
+            </div>
+            <div id="prezentacja_4">
+                <h3>świnka 4</h3>
+                <img src="Obrazy/swinka_do_adopcji.png" alt="Zdjęcie świnki morskiej.">
+                <p>Tutaj znajduje się opis świnki 4. Jeżeli świnka 4 skradła Twoje serce udaj się do formularza adopcyjnego.</p>
+            </div>
+            <div id="prezentacja_5">
+                <h3>świnka 5</h3>
+                <img src="Obrazy/swinka_do_adopcji.png" alt="Zdjęcie świnki morskiej.">
+                <p>Tutaj znajduje się opis świnki 5. Jeżeli świnka 5 skradła Twoje serce udaj się do formularza adopcyjnego.</p>
+            </div>
+
+            <!-- koniec galerii świnek -->
+        </section>
+        <!-- formularz adopcyjny -->
+    <section id="formularz">
+        <br>    <!-- bez tego pasek nawigacji zasłaniał sekcję! -->
+        <br>
+    <h4>Formularz adopcyjny:</h4>
+        <form id="adopcja">
+            <label for="wybor_swinki">Wybierz świnkę, którą chcesz adoptować:
+                <select id="wybor_swinki">
+                    <option value="swinka_1">Świnka 1</option>
+                    <option value="swinka_2">Świnka 2</option>
+                    <option value="swinka_3">Świnka 3</option>
+                    <option value="swinka_3">Świnka 4</option>
+                    <option value="swinka_3">Świnka 5</option>
+                </select>
+            </label>
+            <br>
+            <p>Czy opiekujesz się już jakąś świnką?</p>
+            <label for="tak">
+                <input type="radio" id="tak" name="posiadacz" value="tak">Tak
+            </label>
+            <label for="nie">
+                <input type="radio" id="nie" name="posiadacz" value="nie">Nie
+            </label>
+            <br>
+            <br>
+            <label for="klatka">
+                <input type="checkbox" id="klatka" name="przygotowanie" value="klatka">Posiadam klatkę o wymiarach co najmniej 80x100cm
+            </label>
+            <br>
+            <label for="weterynarz">
+                <input type="checkbox" id="weterynarz" name="przygotowanie" value="weterynarz">Jestem w stanie zapewnić śwince opiekę weterynaryjną
+            </label>
+            <br>
+            <br>
+            <label for="wiadomosc">Kilka słów o sobie:<br>
+            <textarea id="wiadomosc" form="adopcja"></textarea>
+            </label>
+            <br>
+            <label for="email">Kontakt:</label><br>
+            <input type="email" id="email" placeholder=" " required>
+            <br>
+            <br>
+            <input type="submit" value="Wyślij!" id="submit">
+        </form>
+        <br>
+    </section>
+        <!-- koniec formularza adopcyjnego -->
+    <footer id="footer">
+        <div>
+            <h2>W roli modela na potrzeby wykonania strony wystąpił Gustaw.</h2>
+        </div>
+        <img src="Obrazy/gustaw_guineapig.png" alt="Zdjęcie świnki morskiej.">
+    </footer>
+    </main>
+    </body>
+</html>

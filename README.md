@@ -1,2 +1,1 @@
-# adopcje-swinek-morskich
-Projekt powstaje w trakcie nauki z materiałami CodersCamp2020.
+"Adopcje świnek morskich" to możliwość prezentacji świnek poszukujących kochających opiekunów. Zwierzątka są pokazane oraz opisane. Wyrażenie chęci adopcji świnki morskiej umożliwia wypełnienie formularza.
